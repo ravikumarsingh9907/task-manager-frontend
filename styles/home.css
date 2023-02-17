@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600&family=Inter&family=Pacifico&family=Roboto+Slab&family=Titillium+Web&family=Unbounded:wght@300&display=swap');
+
+.heading {
+	font-family: 'Pacifico', cursive;
+}
+
+.task-description {
+	border: none;
+	background-color: transparent;
+}
+
+.task-description:focus {
+	outline: none;
+}
+
+.task-completed {
+	background-color: #95cf955c;
+}
+
+.task-in-progress {
+	background-color: #ffa5004a;
+}
+
+.task-status span {
+	padding-right: 5px;
+}
+
+.task-status i {
+	font-size: 20px;
+	padding-top: 2px;
+}
+
+.task-list-container {
+	max-height: 500px;
+	overflow: auto;
+}
+
+.hide {
+	display: none;
+}
